@@ -69,7 +69,7 @@ Kousar Kousar, Aqsa Shabbir, and Utku Oktay
   - Testing set: 2,000 images (20%).  
 
 ### Eigenfaces  
-- **Dataset**: MUCT Dataset (for training) and AT&T Faces (for testing).  
+- **Dataset**: AT&T Faces.  
 - **Split**:  
   - Training: 30 individuals (~300 images).  
   - Validation: 4 individuals (~40 images).  
