@@ -8,7 +8,7 @@
 
 ## Authors
 
-Kousar Saleem, A. Ercument Cicek, and Sinem Sav  
+Kousar Kousar, Aqsa Shabbir, and Utku Oktay  
 
 ---
 
@@ -25,11 +25,10 @@ Kousar Saleem, A. Ercument Cicek, and Sinem Sav
 
 ## Features
 
-- **Baseline Reconstruction Algorithm**: A greedy approach to reconstruct genomic data without accounting for SNP correlations.
-- **Gradient-Based Optimization**: An advanced algorithm alternating between minimizing SNP correlation loss and allele frequency matching.
-- **Flexible Configurations**: Allows customization of beacon size, SNP subset size, and attacker knowledge (e.g., leaked genomes).
-- **Performance Evaluation**: Detailed analysis of reconstruction effectiveness under various scenarios.
-
+- **Robust Face Detection**: Viola-Jones algorithm with Haar-like features and cascaded classifiers.
+- **Efficient Feature Extraction**: Eigenfaces with PCA for dimensionality reduction and discriminative representation.
+- **Customizable Verification**: Supports SVMs, Decision Trees, and Euclidean Distance classifiers.
+- **Diverse Dataset Training**: Ensures adaptability across real-world scenarios using varied datasets.
 ---
 ## Getting Started
 
