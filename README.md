@@ -59,6 +59,29 @@ Kousar Kousar, Aqsa Shabbir, and Utku Oktay
 
 
 ---
+## Dataset Description  
+
+### Viola-Jones Face Detection  
+- **Dataset**: WIDER FACE.  
+- **Details**: 10,000 examples, equally split between 5,000 positive (faces) and 5,000 negative (non-faces) samples.  
+- **Split**:  
+  - Training set: 8,000 images (80%).  
+  - Testing set: 2,000 images (20%).  
+
+### Eigenfaces  
+- **Dataset**: MUCT Dataset (for training) and AT&T Faces (for testing).  
+- **Split**:  
+  - Training: 30 individuals (~300 images).  
+  - Validation: 4 individuals (~40 images).  
+  - Testing: 6 individuals (~60 images).  
+
+### Active Appearance Models (AAM)  
+- **Dataset**: MUCT Dataset.  
+- **Split**:  
+  - Training: 30 individuals.  
+  - Testing: 10 individuals (~400 total images).
+
+---
 
 ## Acknowledgments
 
