@@ -46,37 +46,16 @@ Kousar Kousar, Aqsa Shabbir, and Utku Oktay
 ---
 
 ## Usage Instructions
-### Running Baseline Simulations
-- Use the `baseline.py` script to execute the baseline beacon reconstruction attack. Parameters allow you to configure beacon size and SNP count.
+### Running Viola-Jones Detector
+- Use the `VJ_Final.py` script to execute the Viola-Jones Detection part. 
    ```bash
-   python baseline.py --beacon_Size 50 --snp_count 30
+   python VJ_Final.py
 
-### Key Arguments
-
-- `--beacon_Size`: Number of individuals targeted for reconstruction.
-- `--snp_count`: Size of the SNP subset in the beacon.
  
-### Running Optimization Simulations
-- Use the `simulate.py` script to execute the beacon reconstruction attack. Parameters allow you to configure beacon size, SNP count, correlation and frequency epoch.
+### Running Eigenfaces
+- Use the `eigenfaces.py` script to execute the face verification. 
    ```bash
-   python simulate.py --beacon_Size 50 --snp_count 30 --corr_epoch 1001 --freq_epoch 501
-
-### Key Arguments
-
-- `--beacon_Size`: Number of individuals targeted for reconstruction.
-- `--snp_count`: Size of the SNP subset in the beacon.
-- `--corr_epoch`: Stage 1 of optimization for correlation loss.
-- `--freq_epoch`: Stage 2 of optimization for frequency loss.
-
----
-## License
-
-[CC BY-NC-SA 2.0](https://creativecommons.org/licenses/by-nc-sa/2.0/)
-
-
-© 2024 Beacon Defender Framework.
-
-**For commercial use, please contact.**
+   python eigenfaces.py 
 
 
 ---
