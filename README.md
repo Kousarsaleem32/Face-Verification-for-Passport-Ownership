@@ -34,14 +34,14 @@ Kousar Kousar, Aqsa Shabbir, and Utku Oktay
 
 - Clone the repository:
    ```bash
-   cd Beacon-Reconstruction-Attack
+   cd CS554_Project
 ---
 
 ## Installation
 
 - You need to install the following dependencies in Python3 for this project:
    ```bash
-   pip3 install numpy scipy matplotlib torch pandas 
+   pip3 install numpy scipy matplotlib torch pandas scikit-learn scikit-image tqdm morphops
 
 ---
 
